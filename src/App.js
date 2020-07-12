@@ -1,24 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+/* import {Navbar} from './components/Navbar';
+import Books from './components/Table';
+import Modal from './components/Modal'
+import Login from './components/Login' */
+import Regform from './components/Regform'
 
 function App() {
+  /*
+  const loadBooks = () => {
+    return(
+      <div>
+        <Navbar />
+        <Modal />
+        <Books />
+      </div>
+    )
+  } */
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <Regform />
     </div>
   );
 }
